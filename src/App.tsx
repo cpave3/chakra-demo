@@ -14,7 +14,7 @@ function App() {
         voluptas numquam assumenda debitis facere nobis fuga quis laborum quia
         sunt inventore tenetur illo dolorem perferendis, ad id ex eaque.
       </Text>
-      <Button size="lg" color={"brand.600"} mt="24px">
+      <Button size="lg" colorScheme={"teal"} mt="24px">
         Do something fun today
       </Button>
     </Box>

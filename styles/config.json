@@ -1,0 +1,27 @@
+{
+  "source": [
+    "../data/my-tokens.json"
+  ],
+  "platforms": {
+    "chakra": {
+      "buildPath": "chakra/",
+      "transformGroup": "js",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json/nested"
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    }
+  }
+}
